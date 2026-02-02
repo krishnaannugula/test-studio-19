@@ -37,13 +37,13 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<provider>MC</provider>
 						<environment>${environment}</environment>
-						<target>Cloudhub-US-East-1</target>
+						<target>Cloudhub-US-East-2</target>
 						<muleVersion>${app.runtime}</muleVersion>
 						<username>${anypoint.username}</username>
 						<password>${anypoint.password}</password>
 						<applicationName>${cloudhub.application.name}</applicationName>
-						<businessGroup>${business}</businessGroup>
-						<vCores>${vCore}</vCores>
+						<replicas>1</replicas>
+						<vCores>1</vCores>
 						<integrations>
 							<services>
 								<objectStoreV2>
