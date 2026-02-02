@@ -38,7 +38,7 @@
 						<provider>MC</provider>
 						<environment>${environment}</environment>
 						<target>Cloudhub-US-East-2</target>
-						<muleVersion>4.8.0</muleVersion>
+						<muleVersion>4.6.0</muleVersion>
 						<releaseChannel>EDGE</releaseChannel>
 						<username>${anypoint.username}</username>
 						<password>${anypoint.password}</password>
