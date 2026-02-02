@@ -64,6 +64,7 @@
 							</services>
 						</integrations>
 					</cloudhub2Deployment>
+					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
 			<plugin>
