@@ -33,25 +33,30 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<cloudhub2Deployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<provider>MC</provider>
-						<environment>${environment}</environment>
-						<target>Cloudhub-US-East-2</target>
-						<muleVersion>${app.runtime}</muleVersion>
-						<username>${anypoint.username}</username>
-						<password>${anypoint.password}</password>
-						<applicationName>${cloudhub.application.name}</applicationName>
-						<replicas>1</replicas>
-						<vCores>1</vCores>
-						<integrations>
-							<services>
-								<objectStoreV2>
-									<enabled>true</enabled>
-								</objectStoreV2>
-							</services>
-						</integrations>
-					</cloudhub2Deployment>
+					<configuration>
+						<cloudhub2Deployment>
+							<uri>https://anypoint.mulesoft.com</uri>
+							<provider>MC</provider>
+							<environment>${environment}</environment>
+							<target>Cloudhub-US-East-2</target>
+
+							<muleVersion>4.8.0</muleVersion>
+							<releaseChannel>EDGE</releaseChannel>
+							<username>${anypoint.username}</username>
+							<password>${anypoint.password}</password>
+							<applicationName>${cloudhub.application.name}</applicationName>
+							<replicas>1</replicas>
+							<vCores>1.0</vCores>
+							<integrations>
+								<services>
+									<objectStoreV2>
+										<enabled>true</enabled>
+									</objectStoreV2>
+								</services>
+							</integrations>
+						</cloudhub2Deployment>
+						<classifier>mule-application</classifier>
+					</configuration>
 					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
