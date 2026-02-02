@@ -4,7 +4,7 @@
 
 	<groupId>7a9ca472-0b69-4486-bfaf-25eedd4b5006</groupId>
 	<artifactId>test-studio-19</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>mule-application</packaging>
 
 	<name>test-studio-19</name>
@@ -49,7 +49,7 @@
 						<provider>MC</provider>
 						<environment>${environment}</environment>
 						<target>Cloudhub-US-East-2</target>
-						<muleVersion>4.6.1</muleVersion>
+						<muleVersion>4.6</muleVersion>
 						<releaseChannel>LTS</releaseChannel>
 						<username>${anypoint.username}</username>
 						<password>${anypoint.password}</password>
@@ -64,7 +64,6 @@
 							</services>
 						</integrations>
 					</cloudhub2Deployment>
-					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
 			<plugin>
