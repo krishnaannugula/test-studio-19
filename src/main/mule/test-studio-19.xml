@@ -5,8 +5,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="8b284e84-398b-402e-bedf-e5f912df55cc" >
-		<http:listener-connection host="0.0.0.0" port="8081" />
+		<http:listener-connection host="${http.listner}" port="${http.port}" />
 	</http:listener-config>
+	<configuration-properties doc:name="Configuration properties" doc:id="0050c3f8-95b5-49fc-92bf-2ef047164cc9" file="local.yaml" />
 	<flow name="test-studio-19Flow" doc:id="4da2e16c-d455-4be2-8d76-250f9f890390" >
 		<http:listener doc:name="Listener" doc:id="a0b4fa02-dafb-4094-987b-bfbd8fdf3c02" config-ref="HTTP_Listener_config" path="/api"/>
 		<logger level="INFO" doc:name="Logger" doc:id="bef2226c-1125-4ae9-b53e-bbd8a7461813" message='"Test studio 19"'/>
