@@ -6,7 +6,7 @@
 
 	<groupId>7a9ca472-0b69-4486-bfaf-25eedd4b5006</groupId>
 	<artifactId>test-studio-19</artifactId>
-	<version>4.0.0</version>
+	<version>4.0.1</version>
 	<packaging>mule-application</packaging>
 
 	<name>test-studio-19</name>
