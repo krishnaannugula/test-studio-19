@@ -54,8 +54,7 @@
 						<target>Cloudhub-US-East-2</target>
 						<muleVersion>4.6</muleVersion>
 						<releaseChannel>LTS</releaseChannel>
-						<username>${anypoint.username}</username>
-						<password>${anypoint.password}</password>
+						<server>anypoint-exchange-v3</server>
 						<applicationName>${cloudhub.application.name}</applicationName>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
