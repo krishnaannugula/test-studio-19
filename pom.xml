@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>7a9ca472-0b69-4486-bfaf-25eedd4b5006</groupId>
-	<artifactId>test-studio-19</artifactId>
+	<artifactId>test-studio-19-v2</artifactId>
 	<version>5.0.1</version>
 	<packaging>mule-application</packaging>
 
@@ -55,7 +55,7 @@
 						<muleVersion>4.6</muleVersion>
 						<releaseChannel>LTS</releaseChannel>
 						<server>anypoint-exchange-v3</server>
-						<applicationName>${cloudhub.application.name}</applicationName>
+						<applicationName>${project.artifactId}</applicationName>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
 						<integrations>
