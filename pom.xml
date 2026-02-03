@@ -16,7 +16,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<app.runtime>4.8.0</app.runtime>
+		<app.runtime>4.7.5</app.runtime>
 		<mule.maven.plugin.version>4.6.1</mule.maven.plugin.version>
 		<munit.version>3.6.2</munit.version>
 		<project.groupId>7a9ca472-0b69-4486-bfaf-25eedd4b5006</project.groupId>
@@ -52,8 +52,8 @@
 						<provider>MC</provider>
 						<environment>${environment}</environment>
 						<target>Cloudhub-US-East-2</target>
-						<muleVersion>4.8:e</muleVersion>
-						<releaseChannel>Edge</releaseChannel>
+						<muleVersion>4.7.5</muleVersion>
+						<releaseChannel>GA</releaseChannel>
 						<server>anypoint-exchange-v3</server>
 						<applicationName>${project.artifactId}</applicationName>
 						<replicas>1</replicas>
