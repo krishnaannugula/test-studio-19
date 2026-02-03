@@ -6,7 +6,7 @@
 
 	<groupId>7a9ca472-0b69-4486-bfaf-25eedd4b5006</groupId>
 	<artifactId>test-studio-19-v2</artifactId>
-	<version>5.0.2</version>
+	<version>5.0.3</version>
 	<packaging>mule-application</packaging>
 
 	<name>test-studio-19</name>
@@ -52,8 +52,8 @@
 						<provider>MC</provider>
 						<environment>${environment}</environment>
 						<target>Cloudhub-US-East-2</target>
-						<muleVersion>4.8</muleVersion>
-						<releaseChannel>LTS</releaseChannel>
+						<muleVersion>4.8:e</muleVersion>
+						<releaseChannel>Edge</releaseChannel>
 						<server>anypoint-exchange-v3</server>
 						<applicationName>${project.artifactId}</applicationName>
 						<replicas>1</replicas>
